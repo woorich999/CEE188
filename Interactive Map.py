@@ -79,7 +79,7 @@ for idx, row in halfdata.iterrows():
     tooltip = get_tooltip(row)
     folium.CircleMarker(
         location=[row['latitude'], row['longitude']],
-        radius=4,
+        radius=6,
         color=None,
         fill=True,
         fill_color=color,
